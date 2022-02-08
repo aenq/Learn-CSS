@@ -1,0 +1,54 @@
+div {
+  display: ;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.satu {
+  width: 200px;
+  height: 200px;
+  background-color: #aefeff;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.tiga {
+  width: 50px;
+  height: 100px;
+  background-color: bisque;
+  margin: 0px auto 100px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.padding {
+  background-color: rgb(115, 216, 0);
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  /*border : width style color;*/
+  border-left: 5px dotted black;
+}
+
+.boxsizing1 {
+  background-color: chocolate;
+  padding: 10px;
+  border: 5px solid yellow;
+}
+
+.boxsizing2 {
+  background-color: crimson;
+  padding: 30px;
+  border: 10px dashed black;
+}

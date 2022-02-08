@@ -1,0 +1,156 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(230, 212, 155);
+  line-height: 1.65;
+  padding-bottom: 1000px;
+}
+
+/* Latihan 1 */
+
+.container-satu {
+  width: 800px;
+  margin: 50px auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.sidebar-satu {
+  order: 1;
+  flex: 1;
+}
+
+.kolom-utama {
+  order: 2;
+  flex: 2;
+}
+
+.sidebar-dua {
+  order: 3;
+  flex: 1;
+}
+
+/* Latihan 2 */
+
+.container-dua {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.layanan {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.layanan.satu {
+  background-color: violet;
+}
+
+.layanan.dua {
+  background-color: tomato;
+}
+
+.layanan.tiga {
+  background-color: yellowgreen;
+}
+
+/* Latihan 3 */
+
+.container-tiga {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.thumbnail img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.thumbnail {
+  width: 50%;
+}
+
+/* Latihan 4 */
+
+.container-empat {
+  max-width: 800px;
+  margin: 50px auto;
+}
+
+.card {
+  border: 1px solid #999;
+  border-radius: 10px;
+  background-color: wheat;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card .header {
+  height: 150px;
+  background-color: thistle;
+}
+
+.card .content {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card.besar {
+  transform: scale(1.13);
+}
+
+/* Latihan 5 - Centering */
+
+.container-lima {
+  width: 500px;
+  height: 500px;
+  margin: 50px auto;
+  border: 10px solid #111;
+  display: flex;
+}
+
+.kotak {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: wheat;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.kotak span {
+  margin: auto;
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .container-dua {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .layanan {
+    width: 30%;
+  }
+
+  .thumbnail {
+    width: 25%;
+  }
+
+  .container-empat {
+    display: flex;
+    flex: center;
+  }
+}
